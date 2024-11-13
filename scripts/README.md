@@ -1,6 +1,2 @@
-# project-template
-Template for a data analysis project.
-
-```
-$ $ gh repo clone masashi-CU/project-template
-```
+A folder for analysis scripts. Only files with extensions .R, .Rmd, .py, and .sh will be uploaded to GitHub.
+ 

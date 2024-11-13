@@ -1,0 +1,10 @@
+*
+!README.md
+!.gitignore
+!**/.gitkeep
+
+# script types to be uploaded
+!**/*.R
+!**/*.Rmd
+!**/*.py
+!**/*.sh
