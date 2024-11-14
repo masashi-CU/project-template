@@ -1,6 +1,7 @@
 # files in the "scripts" folder, except R/Python/Bash scripts
-/scripts
+/scripts/*
 !/scripts/**/
+!/scripts/**/.gitkeep
 !/scripts/**/*.R
 !/scripts/**/*.Rmd
 !/scripts/**/*.py
