@@ -10,7 +10,7 @@ $ gh repo create NEW_REPO_NAME --private -p masashi-CU/project-template
 $ gh repo clone YOUR_GITHUB_USERNAME/NEW_REPO_NAME
 
 # Change permission
-$ chmod -R g+ws NEW_REPO_NAME
+$ find NEW_REPO_NAME -type d -exec chmod g+ws {} ';'
 ```
 
 `data`: folder for data to be analyzed in this project (e.g., CellRanger count matrix, clinical traits of patients.) The contents of this folder will not be uploaded to GitHub.
