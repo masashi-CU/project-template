@@ -1,3 +1,19 @@
+# files in the "scripts" folder, except R/Python/Bash scripts
+/scripts
+!/scripts/**/
+!/scripts/**/*.R
+!/scripts/**/*.Rmd
+!/scripts/**/*.py
+!/scripts/**/*.ipynb
+!/scripts/**/*.sh
+!/scripts/**/*.pl
+!/scripts/**/*.cpproj
+!/scripts/**/*.cppipe
+
+# files in the "data" folder
+/data/*
+!/data/.gitkeep
+
 # History files
 .Rhistory
 .Rapp.history
