@@ -1,5 +1,5 @@
-# files in the "scripts" folder, except R/Python/Bash scripts
-/scripts/*
+# files in the "scripts" folder, except script files (e.g., R/Python/Bash)
+/scripts/**/*
 !/scripts/**/
 !/scripts/**/.gitkeep
 !/scripts/**/*.R
