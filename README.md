@@ -1,17 +1,20 @@
 # project-template
 Template for a data analysis project.
 
-To start a new project with this template:
+## How to start a new project with this template
 
-1. Create a repository for a new analysis project
-$ gh repo create NEW_REPO_NAME --private -p masashi-CU/project-template
+1. Create a new repository. Go to the [GitHub website of this template](https://github.com/masashi-CU/project-template). Press the upper-right button `Use this template`, then `Create a new repository`.
+Set an repository name. Always **choose visibility `Private`**.
 
-1. Download the repository
-$ gh repo clone YOUR_GITHUB_USERNAME/NEW_REPO_NAME
+1. Download the repository to the HPC cluster or your laptop.
 
-# Change permission
-$ find NEW_REPO_NAME -type d -exec chmod g+ws {} ';'
-```
+    ```$ git clone https://github.com/YOUR_GIT_USERNAME/NEW_REPO_NAME.git```
+
+1.  Grant access to the project folder to the people in the same group.
+
+    ```$ find NEW_REPO_NAME -type d -exec chmod g+ws {} ';'```
+
+## Contents
 
 `data`: folder for data to be analyzed in this project (e.g., CellRanger count matrix, clinical traits of patients.) The contents of this folder will not be uploaded to GitHub.
 
