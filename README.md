@@ -19,3 +19,22 @@ Set an repository name. Always **choose visibility `Private`**.
 `data`: folder for data to be analyzed in this project (e.g., CellRanger count matrix, clinical traits of patients.) The contents of this folder will not be uploaded to GitHub.
 
 `scripts`: folder for analysis scripts. Only files with specific extensions will be uploaded to GitHub (.R, .Rmd, .py, ipynb, .sh, .pl, .cpproj, .cppipe)
+
+## Use with RStudio
+1. Create R Project.
+
+    ```File > New Project... > Existing Directory > Path to NEW_REPO_NAME```
+
+1. Initialize `renv` for R package management.
+
+    ```$ R -e "renv::init()"```
+
+## Use with Python
+1. Initialize `uv` for python module management.
+
+    ```$ uv init```
+
+1. Install necessary modules to the environment.
+For example, if you want to use Jupyter Notebook,
+
+    ```$ uv add ipykernel```
