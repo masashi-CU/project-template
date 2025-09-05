@@ -29,6 +29,10 @@ Set an repository name. Always **choose visibility `Private`**.
 
     ```$ R -e "renv::init()"```
 
+1. Fix a graphics issue by adding below to the project `.Rprofile` file.
+
+    ```options(bitmapType = "cairo")```
+
 ## Use with Python
 1. Initialize `uv` for python module management.
 
